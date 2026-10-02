@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(221, 100%, 96%);
+    font-family:"HankenGrotesk";
+}
+
+ @font-face {
+        font-family:"HankenGrotesk";
+        src: url("HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+    }
+
+.container{
+    max-width: 700px;
+    margin: 100px auto;
+    display:grid;
+    grid-template-columns: 350px 300px;
+    background-color:  hsl(0, 0%, 100%);
+    grid-auto-rows: 500px;
+    border-radius: 20px;
+}
+
+.review{
+    background-image: linear-gradient( hsl(252, 100%, 65%), hsl(234, 85%, 45%));
+    padding: 10px;
+    border-radius: 15px;
+    display:grid;
+    padding: 30px;
+    color: hsl(221, 100%, 96%);
+}
+
+.result{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+}
+
+.circle{
+    background-image: linear-gradient( hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius:80%;
+    text-align: center;
+    height:200px;
+    width:200px;
+    align-content: center;
+    justify-self: center;
+    
+    .score{
+        font-size: 80px;
+    }
+
+    .percent{
+        color: hsl(241, 100%, 89%);
+    }
+}
+
+.remark{
+    text-align: center;
+}
+
+.p1{
+    color:  hsl(241, 100%, 89%);
+    padding-bottom:-20px;
+}
+
+.sum{
+    background-color: hsl(0, 0%, 100%);
+    margin:30px 50px;
+}
+
+.summary{
+    margin:0px 0px 30px 0px;
+}
+
+.boxs{
+    display:grid;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-auto-columns: 250px;
+    width: 350px;
+    row-gap:20px;
+    font-weight: 800;
+}
+
+.box1{
+    background-color:  hsla(0, 100%, 67%, 5%);
+    padding: 10px;
+    width: 250px;
+    border-radius: 20px;
+
+    .icon_1{
+        padding-right:10px ;
+        position:relative;
+        top: 5px;
+    }
+
+    .s1{
+        padding-right:65px ;
+        color:  hsl(0, 100%, 67%);
+    }
+    
+    /*.s2{
+        font-family:"HankenGrotesk";
+
+        @font-face {
+            font-family:"HankenGrotesk";
+            src: url("HankenGrotesk-Bold.ttf")format("truetype");
+        }
+    }*/
+
+    .s3{
+        color:#939393;
+    }
+
+}
+
+
+.box2{
+    background-color:  hsla(39, 100%, 56%,5%);
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+
+    .icon_2{
+        padding-right: 10px;
+        position: relative;
+        top:5px;
+    }
+
+    .b2a{
+        padding-right: 70px;
+        color:  hsl(39, 100%, 56%);
+    }
+
+    /*.b2b{
+        font-family:"HankenGrotesk";
+
+        @font-face {
+            font-family:"HankenGrotesk";
+            src: url("HankenGrotesk-Bold.ttf")format("truetype");
+        }
+    }*/
+
+    .b2c{
+        color:#939393;
+    }
+}
+
+.box3{
+    background-color: hsla(166, 100%, 37%,5%);
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+
+    .icon_3{
+        padding-right: 10px;
+        position: relative;
+        top:5px;
+    }
+
+    .b3a{
+        padding-right: 80px;
+        color:  hsl(166, 100%, 37%);
+    }
+
+    /*.b3b{
+        font-family:"HankenGrotesk";
+
+        @font-face {
+            font-family:"HankenGrotesk";
+            src: url("HankenGrotesk-Bold.ttf")format("truetype");
+        }
+    }*/
+
+    .b3c{
+        color:#939393;
+    }
+}
+
+.box4{
+    background-color:  hsla(234, 85%, 45%,5%);
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+
+    .icon_4{
+        padding-right: 10px;
+        position: relative;
+        top:5px;
+    }
+
+    .b4a{
+        padding-right: 80px;
+        color:  hsl(234, 85%, 45%);
+    }
+
+    /*.b4b{
+        font-family:"HankenGrotesk";
+
+        @font-face {
+            font-family:"HankenGrotesk";
+            src: url("HankenGrotesk-Bold.ttf")format("truetype");
+        }
+    }*/
+
+    .b4c{
+        color:#939393;
+    }
+}
+
+.box5{
+    margin-top: 60px;
+    text-align: center;
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .go{
+        padding: 20px 100px ;
+        background-image:linear-gradient(hsl(252, 100%, 65%), hsl(234, 85%, 45%)) ;
+        border-radius: 50px;
+        color:  hsl(241, 100%, 89%);;
+    }
+}
